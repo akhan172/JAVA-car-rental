@@ -1,18 +1,18 @@
 
 class Customer {
- private int cusId;
- private String cusName;
- 
- Customer(int cusId, String cusName){
-	 this.cusId=cusId;
-	 this.cusName=cusName;
- }
- 
- public int getCusId() {
-	return cusId;
-}
+	private String cusDl;
+	private String cusName;
 
- public String getCusName() {
-	return cusName;
-}
+	Customer(String cusDl, String cusName) {
+		this.cusDl = cusDl;
+		this.cusName = cusName;
+	}
+
+	public String getCusId() {
+		return cusDl;
+	}
+
+	public String getCusName() {
+		return cusName;
+	}
 }
