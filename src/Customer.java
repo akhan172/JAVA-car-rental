@@ -1,15 +1,15 @@
 
 class Customer {
-	private String cusDl;
+	private String cusId;
 	private String cusName;
 
-	Customer(String cusDl, String cusName) {
-		this.cusDl = cusDl;
+	Customer(String cusId, String cusName) {
+		this.cusId = cusId;
 		this.cusName = cusName;
 	}
 
 	public String getCusId() {
-		return cusDl;
+		return cusId;
 	}
 
 	public String getCusName() {

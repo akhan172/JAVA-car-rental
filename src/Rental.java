@@ -11,7 +11,7 @@ class Rental {
 	}
 	
 	public Car getCar() {
-		return car;
+		return car; 
 	}
 	
 	public Customer getCus() {
